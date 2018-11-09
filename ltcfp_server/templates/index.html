@@ -1,0 +1,22 @@
+{% extends "_base.html" %}
+
+{% block content %}
+
+<form role="form" method="POST" id="post-form" onsubmit="return false">
+  <div class="form-group">
+    <input type="text" class="form-control input-lg" name="image_url" placeholder="URL da imagem, http://..." required></center>
+  </div>
+  <button type="submit" class="btn btn-lg btn-block btn-success boom" id="search">Enviar!</button>
+</form>
+
+<div id="results">
+  <h1>Resultado Sem Processamento</h1>
+  <div id="results-data"></div>
+</div>
+
+<br><br>
+
+<div id="retry"><a href="">Novo Envio</a></div>
+
+
+{% endblock %}
