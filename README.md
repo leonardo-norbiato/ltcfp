@@ -51,7 +51,8 @@ file:///ltcfp_server/tests/1234567890.jpg
 file:///ltcfp_server/tests/alfabeto-1.jpg
 file:///ltcfp_server/tests/alfabeto-2.jpg
 file:///ltcfp_server/tests/alfabeto-3.jpg
-file:///ltcfp_server/tests/test-amil.png
+file:///ltcfp_server/tests/ocr-alfabeto.gif
+file:///ltcfp_server/tests/teste-ocr.png
 file:///ltcfp_server/tests/RG.png
 ```
 
@@ -59,7 +60,7 @@ Saida esperada para o test-amil:
 ```
 A saída bruta do LTCFP sem processamento é:
 -----------------BEGIN-----------------
-b'e 1\nam i [ Solicitag\xc3\xa9o de Reembolso de Despesa M\xc3\xa9dico-Hospitalar (CLIENTE)\n\nNGmero do Protocolo: 32630520181107068309\n\nBANCO SAFRA S/A\n\n077817000\n\n963942026 - ALINE DE MOURA TERRA\n\n063892928 - BENJAMIN SILVA TERRA\n\nBLUE 600 PLUS NAC QP PUCE Valor Apresentada: RS 300,00\nQtde de Recibos: 2 Valor Reaembolsado: R$ 0,00\nLecalCadastramento: Reemboiso Modalidads de Reembolso / Data Provavel Pgto.:\nData Solicttacg&o: 07/21/2018 Consultas - 22/21/2018\nTelefona da Contato:\nOpcSes de Receblmento: Dap\xc3\xa9sito / Tronsfer\xc3\xa9ncia\nFavorecido: 963942026 -ALINE DE MOURA TERRA\nBanca: BANCO ITAU S.A,\nAgancla: 7056\nObservacde:\n\nDeclaramos para cs devidos efeitos fiscals que o associado nos entregou nesta dota os recibos e comprovantes de pagamentos referentes\n\xc3\xa9s despesas discriminadas que serdo reembotsados de acorde com as condicgbtes estabelecidas em seu contrato,\n\nge\nDeta, Assinatura @ Corimbo do Agante de Atendimento\n\n \n\nese SNCTceecencescsvonssreneanerssreeevenreceseseecsssessiosecepspuppsttssoeseeseosossesecec\n\n \n\neee ees\n\n \n\n \n\n \n\n \n\nhsb eerees nee,\n\n \n\nam i Solicitacdo de Reembolso de Despesa M\xc3\xa9dico-Hospitalar (CREEMB)\n\nNGmero do Protecolo: 32630520181107068309\n\nBANCO SAFRAS/A\n077817000\n963942024 - ALINE DE MOURA TERRA\nBenefici\xc3\xa9ric: 963892926 - BENJAMIN SILVA TERRA\nPlane: BLUE 600 PLUS NAC QP PICE Valor Apresentado: R$ 300,00\nGtde de Recibos: 2 Valor Reembotsado: R$ 0,00\nLocal Cadastramento: Reembolso Modalidade de Reambolso / Data Prov\xc3\xa9vel Pgto.:\nData Solicitagdo: 07/13/2018 Consuitas ~ 22/11/2018\nTelefone de Contato:\n\nOpcdes de Recebimente: Dep\xc3\xa9dsito / Transfer\xc3\xa9ncia\nFavorecide: 963942026 ~ ALINE DE MOURA TERRA\nBanco:BANCC ITAU S.A.\n\nAg\xc3\xa9ncia: 7056\n\nObservacdo:'
+b'This is a lot of 12 point text to test the\nocr code and see if it works on all types\nof file format.\n\nThe quick brown dog jumped over the\nlazy fox. The quick brown dog jumped\nover the lazy fox. The quick brown dog\njumped over the lazy fox. The quick\nbrown dog jumped over the lazy fox.'
 ------------------END------------------
 ```
 
